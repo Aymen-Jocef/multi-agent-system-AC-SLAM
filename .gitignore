@@ -3,12 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
-
+*.
 # ROS2 build artifacts
 build/
 install/
 log/
-
+cpp_explorer/test
+cpp_explorer/resource
 # IDE
 .vscode/
 .idea/
