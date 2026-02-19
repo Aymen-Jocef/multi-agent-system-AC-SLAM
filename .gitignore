@@ -8,8 +8,7 @@ __pycache__/
 build/
 install/
 log/
-cpp_explorer/test
-cpp_explorer/resource
+
 # IDE
 .vscode/
 .idea/
