@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# ROS2 build artifacts (if building in-source)
+build/
+install/
+log/
+
+# IDE
+.vscode/
+.idea/
+
+# Deprecated duplicate files (use cpp_optimized with namespace parameter instead)
+cpp_explorer/cpp_explorer_node_optimized_r2.py
+cpp_explorer/cpp_explorer_node_optimized_r3.py
+cpp_explorer/tf_tester.py

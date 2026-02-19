@@ -1,0 +1,141 @@
+# the id is the name of the node, the x and y are the coordination of the node and the u and v 
+#represent that ther is a relation between the nodes the cost is the distance between these nodes
+
+
+# VERY IMPORTANT : USE THE GRADES IN GAZEBO AS A CARTESIENNE COORDENENT AND MAKE SURE THAT THE GOALS AREN'T FAR FROM THE ROBOT.
+nodes:
+  - id: 1
+    x: -4.0
+    y: 0.0
+  - id: 2
+    x: -10.0
+    y:  0.0 
+  - id: 3
+    x: -11.0 # -1
+    y: 7.0 # 4
+  - id: 4
+    x: -11.0
+    y: 9.0
+  # - id: 5
+  #   x: -11.0
+  #   y: 8.5
+  # - id: 6
+  #   x: -15.0
+  #   y: 7.0
+  # - id: 7
+  #   x: -11.0
+  #   y: 7.0
+  # - id: 8
+  #   x: -11.0
+  #   y: 10.0  # uncomment till this point 
+  # - id: 9
+  #   x: -7.0
+  #   y: 21.5
+  # - id: 10
+  #   x: -2.0
+  #   y: 14.0
+  # - id: 11
+  #   x: -6.0
+  #   y: 0.0
+  # - id: 12
+  #   x: -9.0
+  #   y: 0.0
+  # - id: 13
+  #   x: -11.0
+  #   y: 1.0
+  # - id: 14
+  #   x: -11.0
+  #   y: 4.0
+  # - id: 15
+  #   x: -11.0
+  #   y: 7.0
+  # - id: 16
+  #   x: -11.0
+  #   y: 10.0
+  # - id: 17
+  #   x: -11.5
+  #   y: 13.0
+  # - id: 18
+  #   x: -11.0
+  #   y: 17.0
+  # - id: 19
+  #   x: -8.0
+  #   y: 17.0
+  # - id: 20
+  #   x: -4.0
+  #   y: 17.0
+  # - id: 21
+  #   x: -1.0
+  #   y: 17.0
+  # - id: 22
+  #   x: -1.0
+  #   y: 13.0
+  
+
+edges:
+  - u: 1
+    v: 2
+    cost: 1.0
+  - u: 2
+    v: 3
+    cost: 1.0
+  - u: 3
+    v: 4
+    cost: 1.0
+  - u: 4
+    v: 1
+    cost: 1.0
+  # - u: 5
+  #   v: 1
+  #   cost: 1.0
+  # - u: 6
+  #   v: 7
+  #   cost: 1.0
+  # - u: 7
+  #   v: 8
+  #   cost: 1.0
+  # - u: 8
+  #   v: 1
+  #   cost: 1.0 # uncomment till this point 
+  # - u: 9
+  #   v: 10
+  #   cost: 1.0
+  # - u: 10
+  #   v: 1
+  #   cost: 50
+  # - u: 11
+  #   v: 12
+  #   cost: 4
+  # - u: 12
+  #   v: 13
+  #   cost: 4
+  # - u: 13
+  #   v: 14
+  #   cost: 4
+  # - u: 14
+  #   v: 15
+  #   cost: 4
+  # - u: 15
+  #   v: 16
+  #   cost: 4
+  # - u: 16
+  #   v: 17
+  #   cost: 4
+  # - u: 17
+  #   v: 18
+  #   cost: 4
+  # - u: 18
+  #   v: 19
+  #   cost: 4
+  # - u: 19
+  #   v: 20
+  #   cost: 4
+  # - u: 20
+  #   v: 21
+  #   cost: 4
+  # - u: 21
+  #   v: 22
+  #   cost: 4
+  # - u: 22
+  #   v: 1
+  #   cost: 40

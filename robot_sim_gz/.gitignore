@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# IDE
+.vscode/
+.idea/
+
+# Deprecated duplicate launch files (use namespace parameter instead)
+launch/online_async_r2.launch.py
+launch/online_async_r3.launch.py
+launch/navigation_r2_launch.py
+launch/navigation_r3_launch.py
+
+# Deprecated duplicate config files
+config/nav2_params_r2.yaml

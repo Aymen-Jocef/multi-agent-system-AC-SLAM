@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# IDE
+.vscode/
+.idea/
+
+# ===== Deprecated duplicate files (use namespace parameters instead) =====
+
+# cpp_explorer duplicates
+cpp_explorer/cpp_explorer/cpp_explorer_node_optimized_r2.py
+cpp_explorer/cpp_explorer/cpp_explorer_node_optimized_r3.py
+cpp_explorer/cpp_explorer/tf_tester.py
+
+# robot_sim_gz duplicates
+robot_sim_gz/launch/online_async_r2.launch.py
+robot_sim_gz/launch/online_async_r3.launch.py
+robot_sim_gz/launch/navigation_r2_launch.py
+robot_sim_gz/launch/navigation_r3_launch.py
+robot_sim_gz/config/nav2_params_r2.yaml
+

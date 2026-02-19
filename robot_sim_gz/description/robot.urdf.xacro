@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot  xmlns:xacro="http://ros.org/wiki/xacro" name="sim_robot">
+
+<xacro:include filename="robot_core.xacro"/>
+<xacro:include filename="gz_control.xacro"/>
+<xacro:include filename="lidar.xacro"/>
+
+</robot>
